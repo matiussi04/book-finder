@@ -1,0 +1,59 @@
+.Book{
+    color: var(--color-primary);
+    width: 90%;
+    max-width: 330px;
+    margin: 0 auto 2rem;
+    border: 1px solid var(--color-border);
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+
+.Book h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.Book .Book-img{
+    align-self: center;
+    width: 12.8rem;
+    height: 17.1rem;
+    border: 1px solid var(--color-border);
+    margin: 1.5rem 0;
+}
+
+.Book .Book-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.Book .Book-info p{
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.Book .Book-info span{
+    font-weight: bold;
+}
+
+.Book a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2.5rem;
+    color: var(--color-primary);
+    text-decoration: none;
+    border: 1px solid var(--color-border);
+    border-radius: 1rem;
+    transition: 0.2s;
+}
+
+.Book a:hover{
+    color: var(--color-bg);
+    background: var(--color-border);
+}
