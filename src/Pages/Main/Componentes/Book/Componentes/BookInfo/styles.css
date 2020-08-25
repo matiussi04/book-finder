@@ -1,0 +1,12 @@
+.BookInfo h2{
+    text-align: center;
+}
+
+.BookInfo p{
+    margin: 0 0 1rem 1rem;
+    font-size: 1rem;
+}
+
+.BookInfo span{
+    font-weight: bold;
+}

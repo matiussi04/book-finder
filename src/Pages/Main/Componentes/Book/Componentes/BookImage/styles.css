@@ -1,0 +1,10 @@
+.BookImage{
+    align-self: center;
+    min-width: 12.8rem;
+    min-height: 17.1rem;
+}
+
+.BookImage img{
+    width: 100%;
+    height: 100%;
+}

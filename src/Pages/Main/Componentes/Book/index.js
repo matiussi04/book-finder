@@ -1,11 +1,16 @@
 import React from 'react';
 import './styles.css';
 import { Link } from 'react-router-dom';
+import BookInfo from './Componentes/BookInfo';
+import BookImage from './Componentes/BookImage';
 
-const Book = ({ children }) =>(
+const Book = ({ Book }) =>(
     <article className="Book">
-        { children }
-        <Link>Mais Informações</Link>
+        <div className="Book-content">
+            <BookImage image={Book} />
+            <BookInfo info={Book} />
+        </div>
+        <Link to={"/"}>Mais Informações</Link>
     </article>
 );
 
